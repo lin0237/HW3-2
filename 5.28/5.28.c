@@ -11,7 +11,7 @@ int main()
 	char ch;
 	printf("Enter an alphabet: ");
 	scanf(" %c", &ch);
-	printf("¿é¤J¬°: %c , ¿é¥X¬°: %c\n", ch, change_case(ch));
+	printf("è¼¸å…¥ç‚º: %c , è¼¸å‡ºç‚º: %c\n", ch, change_case(ch));
 	
 	return 0;
 }
