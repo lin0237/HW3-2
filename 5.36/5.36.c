@@ -13,7 +13,7 @@ void hanoi(int n, char from, char to, char aux)
 }
 
 int main() {
-    int n = 64; 
+    int n = 64; //根據需求修改數量
     hanoi(n, 'A', 'C', 'B'); 
     return 0;
 }
