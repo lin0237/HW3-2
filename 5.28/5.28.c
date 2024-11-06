@@ -11,7 +11,7 @@ int main()
 	char ch;
 	printf("Enter an alphabet: ");
 	scanf(" %c", &ch);
-	printf("輸入為: %c , 輸出為: %c\n", ch, change_case(ch));
+	printf("Input: %c , Output: %c\n", ch, change_case(ch));
 	
 	return 0;
 }
